@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\WebApplicationStart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\views\\student\\showinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\views\\student\\showinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\views\\home\\startpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\views\\home\\startpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|d:\\code\\.net\\webapplicationstart\\webapplicationstart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBABA8A-B190-44AF-89EF-68C079F45B8F}|WebApplicationStart\\WebApplicationStart.csproj|solutionrelative:webapplicationstart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowInfo.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\Student\\ShowInfo.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Views\\Student\\ShowInfo.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\Student\\ShowInfo.cshtml*",
+              "RelativeToolTip": "WebApplicationStart\\Views\\Student\\ShowInfo.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T07:18:09.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Models\\Student.cs",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplicationStart\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:14:35.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplicationStart\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplicationStart\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:14:34.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Controllers\\StudentController.cs*",
+              "RelativeToolTip": "WebApplicationStart\\Controllers\\StudentController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:46:46.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplicationStart\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T06:38:59.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplicationStart\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T06:38:52.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartPage.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\Home\\StartPage.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Views\\Home\\StartPage.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Views\\Home\\StartPage.cshtml",
+              "RelativeToolTip": "WebApplicationStart\\Views\\Home\\StartPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T06:27:54.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationStart\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\WebApplicationStart\\WebApplicationStart\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationStart\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:13:19.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
