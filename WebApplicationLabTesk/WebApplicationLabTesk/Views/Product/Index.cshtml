@@ -1,0 +1,22 @@
+﻿@model List<WebApplicationLabTesk.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Prodect List</h2>
+ 
+<div>
+    @foreach (var i in Model)
+    {
+        <text>Prodect Id: @i.ID</text><br />
+        <text>Prodect Name: @i.ProductName</text><br />
+        <text>Prodect Price: @i.ProductPrice</text><br />
+        <text>Prodect Catagory : @i.ProductCatagory</text><br />
+        <text>Prodect Quantity : @i.ProductQuantity</text><br />
+        <text>Prodect totalPrice : @(i.ProductPrice*i.ProductQuantity)</text><br />
+        <br /><br />
+    }
+</div>
+
+
