@@ -1,0 +1,38 @@
+﻿@model List<WebApplicationDataRead.Context.EmployeeTable>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<hr />
+
+<table class="table table-hover">
+    <tr>
+        <td>Employee ID</td>
+        <td>Name</td>
+        <td>Jaoint Date</td>
+        <td>Email</td>
+        <td>Phone</td>
+        <td>Salay</td>
+        <td>Department</td>
+    </tr>
+
+    @foreach (var item in @Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.JoingDate</td>
+            <td>@item.Email</td>
+            <td>@item.Call</td>
+            <td>@item.Salay</td>
+            <td>@item.designation</td>
+        </tr>
+     }
+    </table>
+
+
+
+

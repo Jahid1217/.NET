@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmployeesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmployeeTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="JoingDate" Type="date" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Call" Type="nvarchar" MaxLength="50" />
+    <Property Name="Salay" Type="float" />
+    <Property Name="designation" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="EmployeesModelStoreContainer">
+    <EntitySet Name="EmployeeTable" EntityType="Self.EmployeeTable" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
