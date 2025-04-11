@@ -16,5 +16,18 @@ namespace WebApplicationDataRead.Controllers
             var date = _dbContest.EmployeeTables.ToList();
             return View(date);
         }
+
+        [HttpGet]
+        public ActionResult info()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult EmployeeInfoSend(EmployeeTable emp)
+        {
+            return View("info");
+            //return Content("Employee Added Successfully");
+        }
     }
 }
