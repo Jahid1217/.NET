@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|d:\\code\\.net\\.net\\webapplicationdataentry\\webapplicationdataentry\\controllers\\addproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|solutionrelative:webapplicationdataentry\\controllers\\addproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|d:\\code\\.net\\.net\\webapplicationdataentry\\webapplicationdataentry\\views\\addproduct\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|solutionrelative:webapplicationdataentry\\views\\addproduct\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|d:\\code\\.net\\.net\\webapplicationdataentry\\webapplicationdataentry\\context\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|solutionrelative:webapplicationdataentry\\context\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|d:\\code\\.net\\.net\\webapplicationdataentry\\webapplicationdataentry\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|solutionrelative:webapplicationdataentry\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|d:\\code\\.net\\.net\\webapplicationdataentry\\webapplicationdataentry\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6F974AA9-572D-4C77-9F9A-4E5DCC273276}|WebApplicationdataEntry\\WebApplicationdataEntry.csproj|solutionrelative:webapplicationdataentry\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplicationdataEntry\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplicationdataEntry\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:18:30.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Context\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplicationdataEntry\\Context\\Product.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Context\\Product.cs",
+              "RelativeToolTip": "WebApplicationdataEntry\\Context\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:58:25.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Views\\AddProduct\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationdataEntry\\Views\\AddProduct\\AddProduct.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Views\\AddProduct\\AddProduct.cshtml",
+              "RelativeToolTip": "WebApplicationdataEntry\\Views\\AddProduct\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T14:41:52.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddProductController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Controllers\\AddProductController.cs",
+              "RelativeDocumentMoniker": "WebApplicationdataEntry\\Controllers\\AddProductController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Controllers\\AddProductController.cs",
+              "RelativeToolTip": "WebApplicationdataEntry\\Controllers\\AddProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:40:49.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Context\\Model1.edmx",
+              "RelativeDocumentMoniker": "WebApplicationdataEntry\\Context\\Model1.edmx",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationdataEntry\\WebApplicationdataEntry\\Context\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "WebApplicationdataEntry\\Context\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-13T14:38:25.375Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
