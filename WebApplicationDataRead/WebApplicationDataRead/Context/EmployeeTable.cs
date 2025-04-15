@@ -24,6 +24,7 @@ namespace WebApplicationDataRead.Context
         public string Name { get; set; }
         [Required]
         [Display(Name = "Enter Join Data:")]
+        //[DataType(DataType.Date)]
         public Nullable<System.DateTime> JoingDate { get; set; }
         [Required]
         [EmailAddress]
@@ -39,6 +40,22 @@ namespace WebApplicationDataRead.Context
         public Nullable<double> Salay { get; set; }
         [Required]
         [Display(Name = "Enter Employee Designation:")]
+
         public string designation { get; set; }
     }
-}
+
+    public enum EmployeeType
+    {
+        CRO,
+        HR,
+        Manager,
+        Developer,
+        Designer,
+        Tester,
+        Sales,
+        Marketing,
+        Support,
+        Finance
+    }
+
+    }

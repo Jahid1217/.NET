@@ -4,10 +4,31 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<script>
+    setTimeout(() => {
+        const box = document.getElementById('hide');
+        if (box) {
+            box.style.transition = 'opacity 0.5s';
+            box.style.opacity = '0';
+            setTimeout(() => box.style.display = 'none', 500);
+        }
+    }, 3000);
+</script>
+
 <h2>Index</h2>
 
 <hr />
+<a href="@Url.Action("info", "Employee")" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Create Employee</a>
 <hr />
+
+<br />
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success" id="hide">
+        <strong>Good Job!!</strong>
+        @TempData["Success"]
+    </div>
+}
 
 <table class="table table-hover">
     <thead>
@@ -27,11 +48,16 @@
             <tr>
                 <td>@item.Id</td>
                 <td>@item.Name</td>
-                <td>@item.JoingDate?.ToString("yyyy-MM-dd")</td>
+                <td>@item.JoingDate</td>
                 <td>@item.Email</td>
                 <td>@item.Call</td>
                 <td>@item.Salay</td>
                 <td>@item.designation</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "EmployeeDelete", new { id = item.Id })
+
+                </td>
             </tr>
         }
     </tbody>

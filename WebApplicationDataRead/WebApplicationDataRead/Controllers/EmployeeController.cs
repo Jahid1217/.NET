@@ -34,12 +34,34 @@ namespace WebApplicationDataRead.Controllers
             {
                 _dbContest.EmployeeTables.Add(emp);
                 _dbContest.SaveChanges();
-                return RedirectToAction("info"); 
+                TempData["Success"] = "Employee Added Successfully";
+                return RedirectToAction("Index"); 
             }
 
             return View("info");
             //return View("info");
             //return Content("Employee Added Successfully");
+        }
+
+        public ActionResult EmployeeDelete(int id)
+        {
+            var emp = _dbContest.EmployeeTables.Find(id);
+            if (emp != null)
+            {
+                _dbContest.EmployeeTables.Remove(emp);
+                _dbContest.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult EmployeeEdit(int id)
+        {
+            var emp = _dbContest.EmployeeTables.Find(id);
+            if (emp != null)
+            {
+                return View(emp);
+            }
+            return RedirectToAction("Index");
         }
     }
 }
