@@ -11,6 +11,7 @@
 @using (Html.BeginForm("EmployeeInfoSend", "Employee",FormMethod.Post))
 {
     @Html.AntiForgeryToken()
+    @Html.HiddenFor(x => x.Id)
 
     <div class="form-group">
         @Html.LabelFor(x => x.Name, htmlAttributes: new { @class = "control-label" })
@@ -20,8 +21,16 @@
 
     <div class="form-group">
         @Html.LabelFor(x => x.JoingDate, htmlAttributes: new { @class = "control-label" })
-        @Html.TextBoxFor(x => x.JoingDate, new { @class = "form-control", type = "date" })
-        @*@Html.EditorFor(x => x.JoingDate,"", new { htmlAttributes = new { @class = "form-control" } })*@
+        @*@Html.TextBoxFor(x => x.JoingDate, new { @class = "form-control", type = "date" })*@
+        @Html.EditorFor(x => x.JoingDate,"", new { htmlAttributes = new { @class = "form-control" } })
+        @*@if (ViewBag.NoDate == 0)
+        {
+            @Html.EditorFor(x => x.JoingDate, "", new { htmlAttributes = new { @class = "form-control" } })
+        }
+        else
+        {
+            @Html.EditorFor(x => x.JoingDate, "", new { htmlAttributes = new { @Value = Model.JoingDate?.ToString("yyyy-MM-dd"), @class = "form-control", type = "date" } })
+        }*@
         @Html.ValidationMessageFor(x => x.JoingDate, "", new { @class = "text-danger" })
     </div>
 

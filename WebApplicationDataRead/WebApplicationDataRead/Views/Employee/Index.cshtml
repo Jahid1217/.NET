@@ -29,11 +29,18 @@
         @TempData["Success"]
     </div>
 }
+@if (TempData["remove"] != null)
+{
+    <div class="alert alert-danger" id="hide">
+        <strong>Oh snap!</strong>
+        @TempData["remove"]
+    </div>
+}
 
 <table class="table table-hover">
     <thead>
         <tr>
-            <th>Employee ID</th>
+            @*<th>Employee ID</th>*@
             <th>Name</th>
             <th>Joining Date</th>
             <th>Email</th>
@@ -46,7 +53,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Id</td>
+                @*<td>@item.Id</td>*@
                 <td>@item.Name</td>
                 <td>@item.JoingDate</td>
                 <td>@item.Email</td>
@@ -54,8 +61,10 @@
                 <td>@item.Salay</td>
                 <td>@item.designation</td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "EmployeeDelete", new { id = item.Id })
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+        @Html.ActionLink("Delete", "EmployeeDelete", new { id = item.Id })*@
+                    <a href="@Url.Action("EmployeeDelete",new{ item.Id})" , class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Remove Employee</a>  |
+                    <a href="@Url.Action("info",new { item.Id,item.Name,item.JoingDate,item.Email,item.Salay,item.designation,item.Call })" , class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Edit Employee</a>
 
                 </td>
             </tr>
