@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Medicin_InventoryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MedicineBatches">
+    <Key>
+      <PropertyRef Name="Batch_Id" />
+    </Key>
+    <Property Name="Batch_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Medicine_Id" Type="int" Nullable="false" />
+    <Property Name="BatchNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="CostPrice" Type="float" Nullable="false" />
+    <Property Name="SellingPrice" Type="float" Nullable="false" />
+    <Property Name="ManufactureDate" Type="date" Nullable="false" />
+    <Property Name="ExpiryDate" Type="date" Nullable="false" />
+    <Property Name="ReceivedDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Medicines">
+    <Key>
+      <PropertyRef Name="Medicine_Id" />
+    </Key>
+    <Property Name="Medicine_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Category" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="scientific_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="Supplier_Id" />
+    </Key>
+    <Property Name="Supplier_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Full_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_MedicineBatches_MedicineBatches">
+    <End Role="MedicineBatches" Type="Self.MedicineBatches" Multiplicity="1" />
+    <End Role="MedicineBatches1" Type="Self.MedicineBatches" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MedicineBatches">
+        <PropertyRef Name="Batch_Id" />
+      </Principal>
+      <Dependent Role="MedicineBatches1">
+        <PropertyRef Name="Batch_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Medicines_MedicineBatches">
+    <End Role="MedicineBatches" Type="Self.MedicineBatches" Multiplicity="1" />
+    <End Role="MedicineBatches1" Type="Self.MedicineBatches" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MedicineBatches">
+        <PropertyRef Name="Batch_Id" />
+      </Principal>
+      <Dependent Role="MedicineBatches1">
+        <PropertyRef Name="Batch_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Medicin_InventoryModelStoreContainer">
+    <EntitySet Name="MedicineBatches" EntityType="Self.MedicineBatches" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Medicines" EntityType="Self.Medicines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Supplier" EntityType="Self.Supplier" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MedicineBatches_MedicineBatches" Association="Self.FK_MedicineBatches_MedicineBatches">
+      <End Role="MedicineBatches" EntitySet="MedicineBatches" />
+      <End Role="MedicineBatches1" EntitySet="MedicineBatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Medicines_MedicineBatches" Association="Self.FK_Medicines_MedicineBatches">
+      <End Role="MedicineBatches" EntitySet="MedicineBatches" />
+      <End Role="MedicineBatches1" EntitySet="MedicineBatches" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

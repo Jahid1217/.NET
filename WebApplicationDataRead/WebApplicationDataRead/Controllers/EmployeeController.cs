@@ -40,54 +40,31 @@ namespace WebApplicationDataRead.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult EmployeeInfoSend(EmployeeTable emp)
         {
-            //data entry in database
+            // Check model validity
             if (ModelState.IsValid)
             {
-                //if(emp.Id > 0)
-                //{
-                //    var empUpdate = _dbContest.EmployeeTables.Where(x => x.Id == emp.Id).FirstOrDefault();
-                //    if (empUpdate != null)
-                //    {
-                //        empUpdate.Name = emp.Name;
-                //        empUpdate.JoingDate = emp.JoingDate;
-                //        empUpdate.Email = emp.Email;
-                //        empUpdate.Call = emp.Call;
-                //        empUpdate.Salay = emp.Salay;
-                //        empUpdate.designation = emp.designation;
-                //    }
-                //}
-                //else
-                //{
-                //    //emp.Id = 0;
-                //}
                 if (emp.Id <= 0)
                 {
-                    var empUpdate = _dbContest.EmployeeTables.Where(x => x.Id == emp.Id).FirstOrDefault();
-                    if (empUpdate != null)
-                    {
-                        this. _dbContest.EmployeeTables.Add(emp);
-                        _dbContest.SaveChanges();
-                        TempData["Success"] = "Employee Added Successfully";
-                        return RedirectToAction("Index");
-                    }
+                    // New employee - insert
+                    this. _dbContest.EmployeeTables.Add(emp);
+                    _dbContest.SaveChanges();
+                    TempData["Success"] = "Employee Added Successfully";
                 }
                 else
                 {
+                    // Existing employee - update
                     _dbContest.Entry(emp).State = EntityState.Modified;
                     _dbContest.SaveChanges();
                     TempData["Success"] = "Employee Updated Successfully";
-                    return RedirectToAction("Index");
                 }
-                //_dbContest.EmployeeTables.Add(emp);
-                //_dbContest.SaveChanges();
-                //TempData["Success"] = "Employee Added Successfully";
-                //return RedirectToAction("Index"); 
+
+                return RedirectToAction("Index");
             }
 
-            return View("info");
-            //return View("info");
-            //return Content("Employee Added Successfully");
+            // If model state is invalid, return to the form view
+            return View("info", emp);
         }
+
 
         public ActionResult EmployeeDelete(int? id)
         {

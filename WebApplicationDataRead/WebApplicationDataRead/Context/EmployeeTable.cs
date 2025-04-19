@@ -12,7 +12,7 @@ namespace WebApplicationDataRead.Context
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-
+    
     public partial class EmployeeTable
     {
         public int Id { get; set; }
@@ -24,7 +24,7 @@ namespace WebApplicationDataRead.Context
         public string Name { get; set; }
         [Required]
         [Display(Name = "Enter Join Data:")]
-        //[DataType(DataType.Date)]
+        [DataType(DataType.Date)]
         public Nullable<System.DateTime> JoingDate { get; set; }
         [Required]
         [EmailAddress]
@@ -58,4 +58,4 @@ namespace WebApplicationDataRead.Context
         Finance
     }
 
-    }
+}

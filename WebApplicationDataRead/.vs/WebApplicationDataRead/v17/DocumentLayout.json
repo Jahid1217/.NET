@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T06:12:57.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T06:10:59.166Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

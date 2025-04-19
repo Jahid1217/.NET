@@ -1,0 +1,50 @@
+﻿@model WebApplicationLoginReg.Context.User
+@using WebApplicationLoginReg.Context
+
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Registration</h2>
+
+
+@using (Html.BeginForm("RegistrationAdd", "Registration", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.User_Name, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.User_Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.User_Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Password, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.Password, new { @class = "form-control", type = "password" })
+        @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Role, htmlAttributes: new { @class = "control-label" })
+        @Html.DropDownListFor(x => x.Role, new SelectList(Enum.GetValues(typeof(User_Role))), "--Selest--", new { @class = "control-label" })
+        @Html.ValidationMessageFor(x => x.Role, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Full_Name, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.Full_Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Full_Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Email, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <br
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+
+}
+

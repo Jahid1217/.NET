@@ -21,7 +21,7 @@
 
     <div class="form-group">
         @Html.LabelFor(x => x.JoingDate, htmlAttributes: new { @class = "control-label" })
-        @*@Html.TextBoxFor(x => x.JoingDate, new { @class = "form-control", type = "date" })*@
+        @Html.TextBoxFor(x => x.JoingDate, new { @class = "form-control", type = "date"})
         @Html.EditorFor(x => x.JoingDate,"", new { htmlAttributes = new { @class = "form-control" } })
         @*@if (ViewBag.NoDate == 0)
         {
