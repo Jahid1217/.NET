@@ -1,0 +1,52 @@
+﻿@model WebApplicationStudentSystem.Context.StudentsInformation
+@using WebApplicationStudentSystem.Context
+@{
+    ViewBag.Title = "StandardHelperStudent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Standard Helper Student</h2>
+
+@using (Html.BeginForm("StandardHelperStudentSave", "StudentInfo", FormMethod.Post))
+{
+    <div class="col-form-label">
+        @Html.Label("FirstName", "Enter First Name:", new { @class = "control-label" })
+        @Html.TextBox("FirstName", "", new { @class = "form-control" })
+        @Html.ValidationMessage("FirstName", "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.Label("LastName", "Enter Last Name:", new { @class = "control-label" })
+        @Html.TextBox("LastName", "", new { @class = "form-control" })
+        @Html.ValidationMessage("LastName", "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.Label("DateOfBirth", "Enter Date of Birth:", new { @class = "control-label" })
+        @Html.TextBox("DOB", "", new { @class = "form-control", type = "date" })
+        @Html.ValidationMessage("DOB", "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.Label("Email", "Enter Email:", new { @class = "control-label" })
+        @Html.TextBox("Email", "", new { @class = "form-control" })
+        @Html.ValidationMessage("Email", "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.Label("PhoneNumber", "Enter Phone Number:", new { @class = "control-label" })
+        @Html.TextBox("PhoneNumber", "", new { @class = "form-control" })
+        @Html.ValidationMessage("PhoneNumber", "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.Label("CGPA", "Enter CGPA:", new { @class = "control-label" })
+        @Html.TextBox("CGPA", "", new { @class = "form-control" })
+        @Html.ValidationMessage("CGPA", "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.Label("BloodGroup", "Select Blood Group:", new { @class = "control-label" })
+        @Html.DropDownList("BloodGroup", new SelectList(Enum.GetValues(typeof(BloodType))), "Select Blood Group", new { @class = "form-control" })
+        @Html.ValidationMessage("BloodGroup", "", new { @class = "text-danger" })
+    </div>
+    <br
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+
+}

@@ -7,60 +7,32 @@
       "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\views\\employee\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\employeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\context\\employeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\employeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\registrationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\registrationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\employees.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\employees.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\employees.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\employees.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\employees.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\employees.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\employees.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\employees.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|d:\\code\\.net\\.net\\webapplicationdataread\\webapplicationdataread\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\webapplicationdataread\\views\\registration\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FE85463-7FC0-49B4-A5A4-CE0E13C6C5DC}|WebApplicationDataRead\\WebApplicationDataRead.csproj|solutionrelative:webapplicationdataread\\views\\registration\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,86 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "EmployeeTable.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\EmployeeTable.cs",
               "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\EmployeeTable.cs",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\EmployeeTable.cs",
               "RelativeToolTip": "WebApplicationDataRead\\Context\\EmployeeTable.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:29:13.203Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:17:50.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:06:22.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegistrationController.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\RegistrationController.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\RegistrationController.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\RegistrationController.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\RegistrationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T02:47:12.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegistrationUser.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\RegistrationUser.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\RegistrationUser.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\RegistrationUser.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\RegistrationUser.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T02:35:30.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Registration\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Views\\Registration\\Index.cshtml",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Registration\\Index.cshtml",
-              "RelativeToolTip": "WebApplicationDataRead\\Views\\Registration\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T02:48:06.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T05:25:24.831Z"
             },
             {
               "$type": "Document",
@@ -159,10 +64,45 @@
               "RelativeDocumentMoniker": "WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "WebApplicationDataRead\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T06:12:57.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T05:05:54.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T05:01:57.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplicationDataRead\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplicationDataRead\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T05:01:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:26:11.975Z"
             },
             {
               "$type": "Document",
@@ -170,102 +110,36 @@
               "Title": "info.cshtml",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Employee\\info.cshtml",
               "RelativeDocumentMoniker": "WebApplicationDataRead\\Views\\Employee\\info.cshtml",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Employee\\info.cshtml*",
-              "RelativeToolTip": "WebApplicationDataRead\\Views\\Employee\\info.cshtml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Employee\\info.cshtml",
+              "RelativeToolTip": "WebApplicationDataRead\\Views\\Employee\\info.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T18:43:16.788Z",
+              "WhenOpened": "2025-04-21T15:17:39.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employees.tt",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.tt",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Employees.tt",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.tt",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Employees.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-19T03:10:40.851Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Registration\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDataRead\\Views\\Registration\\Login.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Views\\Registration\\Login.cshtml",
+              "RelativeToolTip": "WebApplicationDataRead\\Views\\Registration\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T15:16:27.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Employees.edmx.diagram",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.edmx.diagram",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Employees.edmx.diagram",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.edmx.diagram",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Employees.edmx.diagram",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-19T03:10:38.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Employees.Designer.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.Designer.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Employees.Designer.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.Designer.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Employees.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "WebApplicationDataRead\\Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "WebApplicationDataRead\\Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwD8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T03:10:36.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Employees.Context.tt",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.Context.tt",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Employees.Context.tt",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.Context.tt",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Employees.Context.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-19T03:10:34.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Model1.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Model1.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Model1.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Model1.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Model1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T03:10:01.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Employees.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.cs",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Employees.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Employees.cs",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Employees.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T02:35:42.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Model1.edmx",
-              "RelativeDocumentMoniker": "WebApplicationDataRead\\Context\\Model1.edmx",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationDataRead\\WebApplicationDataRead\\Context\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "WebApplicationDataRead\\Context\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-04-19T02:34:57.326Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-04-21T15:09:59.348Z"
             }
           ]
         }

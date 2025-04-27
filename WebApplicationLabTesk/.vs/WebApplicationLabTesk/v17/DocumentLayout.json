@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CODE\\.NET\\WebApplicationLabTesk\\",
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|d:\\code\\.net\\webapplicationlabtesk\\webapplicationlabtesk\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|d:\\code\\.net\\.net\\webapplicationlabtesk\\webapplicationlabtesk\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|solutionrelative:webapplicationlabtesk\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|d:\\code\\.net\\webapplicationlabtesk\\webapplicationlabtesk\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\webapplicationlabtesk\\viewmodels\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|solutionrelative:webapplicationlabtesk\\viewmodels\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|d:\\code\\.net\\.net\\webapplicationlabtesk\\webapplicationlabtesk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|solutionrelative:webapplicationlabtesk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\webapplicationlabtesk\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|solutionrelative:webapplicationlabtesk\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|d:\\code\\.net\\webapplicationlabtesk\\webapplicationlabtesk\\viewmodels\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|solutionrelative:webapplicationlabtesk\\viewmodels\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|d:\\code\\.net\\.net\\webapplicationlabtesk\\webapplicationlabtesk\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3BBD13-1F24-4786-8454-631708793E0F}|WebApplicationLabTesk\\WebApplicationLabTesk.csproj|solutionrelative:webapplicationlabtesk\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationLabTesk\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationLabTesk\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T04:57:52.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplicationLabTesk\\Models\\Product.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplicationLabTesk\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T04:57:33.213Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "WebApplicationLabTesk\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\CODE\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Controllers\\ProductController.cs",
               "RelativeToolTip": "WebApplicationLabTesk\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T16:05:36.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplicationLabTesk\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\CODE\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "WebApplicationLabTesk\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-19T16:05:34.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CustomerView.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\ViewModels\\CustomerView.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\ViewModels\\CustomerView.cs",
               "RelativeDocumentMoniker": "WebApplicationLabTesk\\ViewModels\\CustomerView.cs",
-              "ToolTip": "D:\\CODE\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\ViewModels\\CustomerView.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLabTesk\\WebApplicationLabTesk\\ViewModels\\CustomerView.cs",
               "RelativeToolTip": "WebApplicationLabTesk\\ViewModels\\CustomerView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

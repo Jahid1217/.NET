@@ -37,7 +37,6 @@ namespace WebApplicationDataRead.Controllers
                     Password = model.Password,
                     User_Id = model.User_Id,
                     Role = model.Role
-
                 };
 
                 _dbContesReg.RegistrationUsers.Add(user);
@@ -46,7 +45,6 @@ namespace WebApplicationDataRead.Controllers
                 TempData["Success"] = "Registration successful!";
                 return RedirectToAction("Index");
             }
-
             return View("Index");
         }
         public ActionResult Login()
@@ -55,7 +53,7 @@ namespace WebApplicationDataRead.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(RegistrationUser model)
+        public ActionResult LoginPage(RegistrationUser model)
         {
             if (ModelState.IsValid)
             {
@@ -63,16 +61,14 @@ namespace WebApplicationDataRead.Controllers
                 if (user != null)
                 {
                     TempData["Success"] = "Login successful!";
-                    return RedirectToAction("Index", "Employee");
+                    return RedirectToAction("info", "Employee");
                 }
                 else
                 {
                     ModelState.AddModelError("", "Invalid username or password");
                 }
             }
-            return View(model);
+            return View("Login");
         }
     }
-
-
 }

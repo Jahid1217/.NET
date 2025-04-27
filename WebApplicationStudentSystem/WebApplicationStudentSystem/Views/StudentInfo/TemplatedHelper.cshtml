@@ -1,0 +1,51 @@
+﻿@model WebApplicationStudentSystem.Context.StudentsInformation
+@using WebApplicationStudentSystem.Context
+@{
+    ViewBag.Title = "TemplatedHelper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Templated Helper</h2>
+
+@using (Html.BeginForm("TemplatedHelperStudentSave", "StudentInfo", FormMethod.Post))
+{
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.FirstName, new { @class = "control-label" })
+        @Html.EditorFor(m => m.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.LastName, new { @class = "control-label" })
+        @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.DOB, new { @class = "control-label" })
+        @Html.EditorFor(m => m.DOB, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+        @Html.ValidationMessageFor(m => m.DOB, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+        @Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.PhoneNumber, new { @class = "control-label" })
+        @Html.EditorFor(m => m.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.CGPA, new { @class = "control-label" })
+        @Html.EditorFor(m => m.CGPA, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(m => m.CGPA, "", new { @class = "text-danger" })
+    </div>
+    <div class="col-form-label">
+        @Html.LabelFor(m => m.BloodGroup, new { @class = "control-label" })
+        @Html.DropDownListFor(m => m.BloodGroup, new SelectList(Enum.GetValues(typeof(BloodType))), "Select Blood Group", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.BloodGroup, "", new { @class = "text-danger" })
+    </div>
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+}

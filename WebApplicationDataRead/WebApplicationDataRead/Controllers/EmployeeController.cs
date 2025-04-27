@@ -51,7 +51,7 @@ namespace WebApplicationDataRead.Controllers
                     TempData["Success"] = "Employee Added Successfully";
                 }
                 else
-                {
+                { 
                     // Existing employee - update
                     _dbContest.Entry(emp).State = EntityState.Modified;
                     _dbContest.SaveChanges();
