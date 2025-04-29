@@ -1,0 +1,2 @@
+C:\Users\Sumaiya Afrin\source\repos\WebApplicationStudentInformation\WebApplicationStudentInformation\obj\Debug\WebApplicationStudentInformation.csproj.AssemblyReference.cache
+C:\Users\Sumaiya Afrin\source\repos\WebApplicationStudentInformation\WebApplicationStudentInformation\obj\Debug\WebApplicationStudentInformation.csproj.CoreCompileInputs.cache

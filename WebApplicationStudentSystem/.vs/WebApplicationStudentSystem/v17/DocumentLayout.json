@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\webapplicationstudentsystem\\views\\studentinfo\\standardhelperstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\standardhelperstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\webapplicationstudentsystem\\views\\studentinfo\\stronglytypedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\stronglytypedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\webapplicationstudentsystem\\views\\studentinfo\\templatedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\templatedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\views\\studentinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\views\\studentinfo\\templatedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\templatedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\controllers\\studentinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\webapplicationstudentsystem\\controllers\\studentinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\controllers\\studentinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\views\\studentinfo\\standardhelperstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\standardhelperstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\views\\studentinfo\\stronglytypedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\views\\studentinfo\\stronglytypedhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\context\\studentsinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\webapplicationstudentsystem\\context\\studentsinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\context\\studentsinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|d:\\code\\.net\\.net\\webapplicationstudentsystem\\webapplicationstudentsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\webapplicationstudentsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F795417-2E94-420B-801A-7390D9AECD9B}|WebApplicationStudentSystem\\WebApplicationStudentSystem.csproj|solutionrelative:webapplicationstudentsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Views\\StudentInfo\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplicationStudentSystem\\Views\\StudentInfo\\Index.cshtml",
@@ -55,20 +55,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TemplatedHelper.cshtml",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Views\\StudentInfo\\TemplatedHelper.cshtml",
               "RelativeDocumentMoniker": "WebApplicationStudentSystem\\Views\\StudentInfo\\TemplatedHelper.cshtml",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Views\\StudentInfo\\TemplatedHelper.cshtml",
               "RelativeToolTip": "WebApplicationStudentSystem\\Views\\StudentInfo\\TemplatedHelper.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-27T18:15:16.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "StronglyTypedHelper.cshtml",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Views\\StudentInfo\\StronglyTypedHelper.cshtml",
               "RelativeDocumentMoniker": "WebApplicationStudentSystem\\Views\\StudentInfo\\StronglyTypedHelper.cshtml",
@@ -89,25 +89,24 @@
               "RelativeToolTip": "WebApplicationStudentSystem\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T16:58:59.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T16:58:59.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "StandardHelperStudent.cshtml",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Views\\StudentInfo\\StandardHelperStudent.cshtml",
               "RelativeDocumentMoniker": "WebApplicationStudentSystem\\Views\\StudentInfo\\StandardHelperStudent.cshtml",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Views\\StudentInfo\\StandardHelperStudent.cshtml",
               "RelativeToolTip": "WebApplicationStudentSystem\\Views\\StudentInfo\\StandardHelperStudent.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-27T14:45:16.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StudentInfoController.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentSystem\\WebApplicationStudentSystem\\Controllers\\StudentInfoController.cs",
               "RelativeDocumentMoniker": "WebApplicationStudentSystem\\Controllers\\StudentInfoController.cs",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "WebApplicationStudentSystem\\Controllers\\StudentInfoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:42:32.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:42:32.897Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "WebApplicationStudentSystem\\Context\\StudentsInformation.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:04:31.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:04:31.616Z"
             }
           ]
         }

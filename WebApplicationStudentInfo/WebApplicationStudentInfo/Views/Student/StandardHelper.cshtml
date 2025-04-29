@@ -1,0 +1,59 @@
+﻿@model WebApplicationStudentInfo.Context.Student_DB
+@using WebApplicationStudentInfo.Context;
+@{
+    ViewBag.Title = "StandardHelper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Standard Helper </h2>
+
+@using (Html.BeginForm("StandardHelperUpdate","Student", FormMethod.Post))
+{
+    
+    <div>
+        @Html.Label("First_Name", "First Name:")
+        @Html.TextBox("First_Name")
+        @Html.ValidationMessage("First_Name", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.Label("Last_Name", "Last Name:")
+        @Html.TextBox("Last_Name")
+        @Html.ValidationMessage("Last_Name", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.Label("DOB", "Date of Birth:")
+        @Html.TextBox("DOB", "", new { type = "date" })
+        @Html.ValidationMessage("DOB", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.Label("Email", "Email:")
+        @Html.TextBox("Email", "", new { type = "email" })
+        @Html.ValidationMessage("Email", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.Label("Phone", "Phone Number:")
+        @Html.TextBox("Phone", "", new { type = "tel" })
+        @Html.ValidationMessage("Phone", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.Label("CGPA", "CGPA:")
+        @Html.TextBox("CGPA")
+        @Html.ValidationMessage("CGPA", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.Label("Blood_Group", "Blood Group:")
+        @Html.TextBox("Blood_Group")
+        @Html.ValidationMessage("Blood_Group", "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        <input type="submit" value="Create" />
+    </div>
+}
+

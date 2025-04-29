@@ -1,0 +1,55 @@
+﻿@model WebApplicationStudentInformation.Context.Student_Table
+
+@{
+    ViewBag.Title = "Templated Helper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Templated Helper</h2>
+
+@using (Html.BeginForm("TemplatedHelperStudent", "Student", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName)
+        @Html.EditorFor(model => model.FirstName)
+        @Html.ValidationMessageFor(model => model.FirstName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName)
+        @Html.EditorFor(model => model.LastName)
+        @Html.ValidationMessageFor(model => model.LastName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Dob)
+        @Html.EditorFor(model => model.Dob)
+        @Html.ValidationMessageFor(model => model.Dob)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Emaill)
+        @Html.EditorFor(model => model.Emaill)
+        @Html.ValidationMessageFor(model => model.Emaill)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Phone_No)
+        @Html.EditorFor(model => model.Phone_No)
+        @Html.ValidationMessageFor(model => model.Phone_No)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CGPA)
+        @Html.EditorFor(model => model.CGPA)
+        @Html.ValidationMessageFor(model => model.CGPA)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Blood_Group)
+        @Html.EditorFor(model => model.Blood_Group)
+        @Html.ValidationMessageFor(model => model.Blood_Group)
+    </div>
+
+    <input type="submit" value="Submit" class="btn btn-success" />
+}

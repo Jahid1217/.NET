@@ -1,0 +1,63 @@
+﻿@using WebApplicationStudentInformation.Context
+@model WebApplicationStudentInformation.Context.Student_Table
+
+@{
+    ViewBag.Title = "StandardHelper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>StandardHelper</h2>
+
+@using (Html.BeginForm("StandardHelperStudent", "Student", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("FirstName", "First Name")
+        @Html.TextBox("FirstName", "", new { @class = "form-control" })
+        @Html.ValidationMessage("FirstName", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("LastName", "Last Name")
+        @Html.TextBox("LastName", "", new { @class = "form-control" })
+        @Html.ValidationMessage("LastName", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Dob", "Date of Birth")
+        @Html.TextBox("Dob", "", new { @class = "form-control", type = "date" })
+        @Html.ValidationMessage("Dob", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Emaill", "Email")
+        @Html.TextBox("Emaill", "", new { @class = "form-control", type = "email" })
+        @Html.ValidationMessage("Emaill", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Phone_No", "Phone Number")
+        @Html.TextBox("Phone_No", "", new { @class = "form-control" })
+        @Html.ValidationMessage("Phone_No", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("CGPA", "CGPA")
+        @Html.TextBox("CGPA", "", new { @class = "form-control", type = "number", step = "0.01" })
+        @Html.ValidationMessage("CGPA", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Blood_Group", "Blood Group")
+        @Html.TextBox("Blood_Group", "", new { @class = "form-control" })
+        @Html.ValidationMessage("Blood_Group", "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success mt-3">
+        @TempData["Success"]
+    </div>
+}
