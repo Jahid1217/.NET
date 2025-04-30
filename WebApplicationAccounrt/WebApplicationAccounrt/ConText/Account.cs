@@ -18,30 +18,38 @@ namespace WebApplicationAccounrt.ConText
         public int Id { get; set; }
         [Required]
         [StringLength(50)]
-        [MinLength(3) ]
+        [Display(Name = "Account Name:")]
+        [DataType(DataType.Text)]
         public string Title { get; set; }
         [Required]
+        [Display(Name = "Account Oping Data:")]
+        [DataType(DataType.Date)]
         public System.DateTime OpingDate { get; set; }
         [Required]
-        
+        [Display(Name = "Account Balance:")]
+        [DataType(DataType.Currency)]
         public double Balance { get; set; }
         [Required]
+        [Display(Name = "Account Type:")]
+        [DataType(DataType.Text)]
         [StringLength(50)]
         public string Type { get; set; }
         [Required]
-        [StringLength(50)]
+        [Display(Name = "Enter Email:")]
+        [DataType(DataType.EmailAddress)]
         [EmailAddress]
         public string Email { get; set; }
         [Required]
-        [StringLength(50)]
+        [Display(Name = "Enter Phone Number:")]
         [DataType(DataType.PhoneNumber)]
+        [Phone]
         [RegularExpression(@"^\d{11}$", ErrorMessage = "Phone number must be 11 digits.")]
         public string Phone { get; set; }
     }
-   public enum accountType
+    public enum AccountType
     {
         Saving,
         Current,
-        Fixed
+        FixedDeposit,
     }
 }

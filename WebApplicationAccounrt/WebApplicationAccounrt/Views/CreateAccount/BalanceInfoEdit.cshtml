@@ -1,0 +1,70 @@
+﻿@model WebApplicationAccounrt.ConText.Account
+@{
+    ViewBag.Title = "BalanceInfoEdit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>BalanceInfoEdit</h2>
+<div class="form-group">
+    @Html.LabelFor(x => x.Id)
+    @Html.DisplayFor(x => x.Id)
+</div>
+
+<div class="form-group">
+    @Html.LabelFor(x => x.Title)
+    @Html.DisplayFor(x => x.Title)
+</div>
+
+<div class="form-group">
+    @Html.LabelFor(x => x.Balance)
+    @Html.DisplayFor(x => x.Balance)
+</div>
+
+
+@using (Html.BeginForm("BalanceInfoEditSave", "CreateAccount", FormMethod.Post, new { id = "accountForm" }))
+{
+    @Html.Hidden("Id", Model.Id) <!-- Make sure to include the account ID -->
+
+    <div class="form-group">
+        @Html.Label("Amount", htmlAttributes: new { @class = "control-label" })
+        <input type="number" id="Amount" name="Balance" class="form-control" required step="0.01" min="0.01" />
+        <span class="text-danger" id="amountError"></span>
+    </div>
+
+    <br />
+    <div class="form-group">
+        <button type="button" class="btn btn-success" onclick="submitForm('deposit')"><i class="bi bi-plus-circle"></i> Deposit</button>
+        <button type="button" class="btn btn-warning" onclick="submitForm('credit')"><i class="bi bi-dash-circle"></i> Credit</button>
+        <a href="@Url.Action("Index", "CreateAccount")" class="btn btn-primary"><i class="bi bi-arrow-left"></i> Back
+        </a>
+    </div>
+
+    @Html.Hidden("TransactionType", "")
+}
+
+<script>
+    function submitForm(type) {
+        document.getElementById("amountError").innerText = "";
+        var balance = parseFloat(@Model.Balance);
+        var amountInput = document.getElementById("Amount");
+        var amount = parseFloat(amountInput.value);
+
+        document.getElementsByName("TransactionType")[0].value = type;
+
+        if (isNaN(amount) || amount <= 0) {
+            document.getElementById("amountError").innerText = "Please enter a valid positive amount.";
+            amountInput.focus();
+            return;
+        }
+
+        if (type === "credit" && amount > balance) {
+            document.getElementById("amountError").innerText =
+                `Insufficient balance. Available: ${balance.toFixed(2)}, Requested: ${amount.toFixed(2)}`;
+            return;
+        }
+
+        if (confirm(`Are you sure you want to ${type} $${amount.toFixed(2)}?`)) {
+            document.getElementById("accountForm").submit();
+        }
+    }
+</script>

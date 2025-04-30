@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|d:\\code\\.net\\.net\\webapplicationaccounrt\\webapplicationaccounrt\\views\\createaccount\\accountinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|solutionrelative:webapplicationaccounrt\\views\\createaccount\\accountinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|d:\\code\\.net\\.net\\webapplicationaccounrt\\webapplicationaccounrt\\views\\createaccount\\balanceinfoedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|solutionrelative:webapplicationaccounrt\\views\\createaccount\\balanceinfoedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\webapplicationaccounrt\\views\\createaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|solutionrelative:webapplicationaccounrt\\views\\createaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|d:\\code\\.net\\.net\\webapplicationaccounrt\\webapplicationaccounrt\\controllers\\createaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|solutionrelative:webapplicationaccounrt\\controllers\\createaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|d:\\code\\.net\\.net\\webapplicationaccounrt\\webapplicationaccounrt\\views\\createaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|solutionrelative:webapplicationaccounrt\\views\\createaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|d:\\code\\.net\\.net\\webapplicationaccounrt\\webapplicationaccounrt\\context\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6343F2-BD10-478C-B20D-63BDAD6FF40F}|WebApplicationAccounrt\\WebApplicationAccounrt.csproj|solutionrelative:webapplicationaccounrt\\context\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\ConText\\Account.cs",
-              "RelativeDocumentMoniker": "WebApplicationAccounrt\\ConText\\Account.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\ConText\\Account.cs",
-              "RelativeToolTip": "WebApplicationAccounrt\\ConText\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:07:09.929Z",
-              "IsPinned": true,
+              "DocumentIndex": 0,
+              "Title": "BalanceInfoEdit.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Views\\CreateAccount\\BalanceInfoEdit.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationAccounrt\\Views\\CreateAccount\\BalanceInfoEdit.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Views\\CreateAccount\\BalanceInfoEdit.cshtml*",
+              "RelativeToolTip": "WebApplicationAccounrt\\Views\\CreateAccount\\BalanceInfoEdit.cshtml*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T19:02:02.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Views\\CreateAccount\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplicationAccounrt\\Views\\CreateAccount\\Index.cshtml",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Views\\CreateAccount\\Index.cshtml",
               "RelativeToolTip": "WebApplicationAccounrt\\Views\\CreateAccount\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-29T07:16:43.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountInfo.cshtml",
-              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Views\\CreateAccount\\AccountInfo.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationAccounrt\\Views\\CreateAccount\\AccountInfo.cshtml",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Views\\CreateAccount\\AccountInfo.cshtml*",
-              "RelativeToolTip": "WebApplicationAccounrt\\Views\\CreateAccount\\AccountInfo.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T07:06:12.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CreateAccountController.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Controllers\\CreateAccountController.cs",
               "RelativeDocumentMoniker": "WebApplicationAccounrt\\Controllers\\CreateAccountController.cs",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationAccounrt\\WebApplicationAccounrt\\Controllers\\CreateAccountController.cs",
               "RelativeToolTip": "WebApplicationAccounrt\\Controllers\\CreateAccountController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwDkAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:02:16.7Z",
+              "WhenOpened": "2025-04-30T13:11:50.456Z",
               "EditorCaption": ""
             }
           ]

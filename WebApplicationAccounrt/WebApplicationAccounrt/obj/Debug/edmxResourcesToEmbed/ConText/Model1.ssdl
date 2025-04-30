@@ -1,16 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="AccountDB.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'AccountDB.dbo.Account' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Account">
     <Key>
       <PropertyRef Name="Id" />
-      <PropertyRef Name="Title" />
-      <PropertyRef Name="OpingDate" />
-      <PropertyRef Name="Balance" />
-      <PropertyRef Name="Type" />
-      <PropertyRef Name="Email" />
-      <PropertyRef Name="Phone" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -21,16 +13,6 @@ warning 6002: The table/view 'AccountDB.dbo.Account' does not have a primary key
     <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityContainer Name="AccountDBStoreContainer">
-    <EntitySet Name="Account" EntityType="Self.Account" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [Account].[Id] AS [Id], 
-    [Account].[Title] AS [Title], 
-    [Account].[OpingDate] AS [OpingDate], 
-    [Account].[Balance] AS [Balance], 
-    [Account].[Type] AS [Type], 
-    [Account].[Email] AS [Email], 
-    [Account].[Phone] AS [Phone]
-    FROM [dbo].[Account] AS [Account]</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

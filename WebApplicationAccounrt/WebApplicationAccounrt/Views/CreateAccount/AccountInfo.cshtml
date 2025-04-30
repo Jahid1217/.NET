@@ -8,11 +8,11 @@
 
 <h2>AccountInfo</h2>
 
+<hr />
+
 @using (Html.BeginForm("AccountInfoSave", "CreateAccount", FormMethod.Post))
 {
    
-    
-
 <div class="form-group">
     @Html.LabelFor(x => x.Title, htmlAttributes: new { @class = "control-label" })
     @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
@@ -32,7 +32,7 @@
 
 <div class="form-group">
     @Html.LabelFor(x => x.Type, htmlAttributes: new { @class = "control-label" })
-    @Html.DropDownListFor(x => x.Type, new SelectList(Enum.GetValues(typeof(accountType))), "--Selest Type--", new { @class = "control-label" })
+    @Html.DropDownListFor(x => x.Type, new SelectList(Enum.GetValues(typeof(AccountType))), "--Selest Type--", new { @class = "control-label" })
     @Html.ValidationMessageFor(x => x.Type, "", new { @class = "text-danger" })
 </div>
 <div class="form-group">
@@ -45,9 +45,11 @@
     @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
     @Html.ValidationMessageFor(x => x.Phone, "", new { @class = "text-danger" })
 </div>
+<br/>
 <div class="form-group">
     <input type="submit" value="Save" class="btn btn-primary" />
 </div>
+<a href="@Url.Action("Index", "CreateAccount")" class="btn btn-primary">Back</a>
 
 }
     
