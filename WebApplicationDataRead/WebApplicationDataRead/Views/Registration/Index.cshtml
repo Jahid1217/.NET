@@ -9,7 +9,7 @@
 
 @using (Html.BeginForm("Save", "Registration", FormMethod.Post, new { @class = "form-horizontal" }))
 {
-    @Html.AntiForgeryToken() <!-- Add this line -->
+    @Html.AntiForgeryToken() 
 
     <div class="form-group">
         @Html.LabelFor(m => m.Full_name, new { @class = "control-label col-md-2" })

@@ -52,23 +52,26 @@ namespace WebApplicationDataRead.Controllers
             return View();
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        
         public ActionResult LoginPage(RegistrationUser model)
         {
             if (ModelState.IsValid)
             {
                 var user = _dbContesReg.RegistrationUsers.FirstOrDefault(u => u.User_Id == model.User_Id && u.Password == model.Password);
+
                 if (user != null)
                 {
                     TempData["Success"] = "Login successful!";
-                    return RedirectToAction("info", "Employee");
+                    return RedirectToAction("Index", "Employee");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Invalid username or password");
+                    ModelState.AddModelError("Login", "Invalid username or password");
+                    return View(model);
                 }
+
             }
-            return View("Login");
+            return View("Index");
         }
     }
 }

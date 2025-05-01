@@ -33,7 +33,7 @@ namespace WebApplicationLoginReg.Controllers
 
             try
             {
-                this._dbContest.u
+                this._dbContest.UserId = user.UserId;
                 _dbContest.SaveChanges();
                 TempData["Success"] = "Employee Added Successfully";
                 return RedirectToAction("Index");

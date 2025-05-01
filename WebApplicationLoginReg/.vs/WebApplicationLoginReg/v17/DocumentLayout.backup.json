@@ -7,19 +7,23 @@
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\context\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\context\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\context\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\views\\registration\\registrationadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\views\\registration\\registrationadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\views\\registration\\registrationadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginReg\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationLoginReg\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T05:49:15.929Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -64,16 +81,16 @@
               "Title": "RegistrationController.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
-              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
-              "RelativeToolTip": "WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\RegistrationController.cs*",
+              "RelativeToolTip": "WebApplicationLoginReg\\Controllers\\RegistrationController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T18:41:58.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WebApplicationLoginReg\\Controllers\\LoginController.cs",
@@ -86,15 +103,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Context\\Model1.edmx",
               "RelativeDocumentMoniker": "WebApplicationLoginReg\\Context\\Model1.edmx",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Context\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "WebApplicationLoginReg\\Context\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-04-18T18:36:04.145Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-04-18T18:36:04.145Z"
             }
           ]
         }
