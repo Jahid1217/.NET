@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|d:\\code\\.net\\.net\\webapplicationloginregforgate\\webapplicationloginregforgate\\context\\extended\\registrationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|solutionrelative:webapplicationloginregforgate\\context\\extended\\registrationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|d:\\code\\.net\\.net\\webapplicationloginregforgate\\webapplicationloginregforgate\\context\\registrationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|solutionrelative:webapplicationloginregforgate\\context\\registrationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|d:\\code\\.net\\.net\\webapplicationloginregforgate\\webapplicationloginregforgate\\crpto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|solutionrelative:webapplicationloginregforgate\\crpto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|d:\\code\\.net\\.net\\webapplicationloginregforgate\\webapplicationloginregforgate\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|solutionrelative:webapplicationloginregforgate\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|d:\\code\\.net\\.net\\webapplicationloginregforgate\\webapplicationloginregforgate\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDEE715-BFB3-4523-90C2-19925A286066}|WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate.csproj|solutionrelative:webapplicationloginregforgate\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Crpto.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Crpto.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginRegForgate\\Crpto.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Crpto.cs",
+              "RelativeToolTip": "WebApplicationLoginRegForgate\\Crpto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:01:52.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationLoginRegForgate\\Views\\User\\Register.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "WebApplicationLoginRegForgate\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T06:07:10.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginRegForgate\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplicationLoginRegForgate\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T05:52:54.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationInfo.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Context\\Extended\\RegistrationInfo.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginRegForgate\\Context\\Extended\\RegistrationInfo.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Context\\Extended\\RegistrationInfo.cs",
+              "RelativeToolTip": "WebApplicationLoginRegForgate\\Context\\Extended\\RegistrationInfo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T04:51:03.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationInfo.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Context\\RegistrationInfo.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginRegForgate\\Context\\RegistrationInfo.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginRegForgate\\WebApplicationLoginRegForgate\\Context\\RegistrationInfo.cs",
+              "RelativeToolTip": "WebApplicationLoginRegForgate\\Context\\RegistrationInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T04:44:43.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
