@@ -46,7 +46,6 @@ namespace WebApplicationLoginRegForgate.Controllers
                     BS.RegistrationInfoes.Add(registrationInfo);
 
                     BS.SaveChanges();
-                
                     SendVerifications(registrationInfo.Email, registrationInfo.ActivationCode.ToString());
                     message = "Registration successfully done. Account activation link has been sent to your email address.";
                     Status = true;
@@ -62,6 +61,43 @@ namespace WebApplicationLoginRegForgate.Controllers
             ViewBag.message = message;
             ViewBag.Status = Status;
             return View(registrationInfo);
+        }
+        //login
+        public ActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Login(RegistrationInfo loginInfo)
+        {
+            string message = "";
+            using (BookShopEntities BS = new BookShopEntities())
+            {
+                var v = BS.RegistrationInfoes.Where(a => a.Email == loginInfo.Email).FirstOrDefault();
+                if (v != null)
+                {
+                    if (string.Compare(Crpto.Hash(loginInfo.Password), v.Password) == 0)
+                    {
+                        int timeout = loginInfo.RememberMe ? 525600 : 20; // 525600 min = 1 year
+                        var ticket = new System.Web.Security.FormsAuthenticationTicket(1, v.Email, DateTime.Now, DateTime.Now.AddMinutes(timeout), loginInfo.RememberMe, v.Email);
+                        string encTicket = System.Web.Security.FormsAuthentication.Encrypt(ticket);
+                        var cookie = new HttpCookie(System.Web.Security.FormsAuthentication.FormsCookieName, encTicket);
+                        cookie.Expires = DateTime.Now.AddMinutes(timeout);
+                        Response.Cookies.Add(cookie);
+                        return RedirectToAction("Index", "Home");
+                    }
+                    else
+                    {
+                        message = "Invalid credentials provided";
+                    }
+                }
+                else
+                {
+                    message = "Invalid credentials provided";
+                }
+            }
+            ViewBag.Message = message;
+            return View();
         }
         [NonAction]
 
