@@ -27,5 +27,6 @@ namespace WebApplicationDataRead.Context
     
         public virtual DbSet<EmployeeTable> EmployeeTables { get; set; }
         public virtual DbSet<RegistrationUser> RegistrationUsers { get; set; }
+        public virtual DbSet<UserLogin> UserLogins { get; set; }
     }
 }

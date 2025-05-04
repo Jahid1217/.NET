@@ -26,5 +26,15 @@
   <EntityContainer Name="EmployeesEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="EmployeeTables" EntityType="Self.EmployeeTable" />
     <EntitySet Name="RegistrationUsers" EntityType="Self.RegistrationUser" />
+    <EntitySet Name="UserLogins" EntityType="EmployeesModel1.UserLogin" />
   </EntityContainer>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

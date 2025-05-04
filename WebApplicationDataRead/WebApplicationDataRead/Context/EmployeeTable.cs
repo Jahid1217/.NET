@@ -12,12 +12,13 @@ namespace WebApplicationDataRead.Context
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    
+
     public partial class EmployeeTable
     {
+
         public int Id { get; set; }
 
-        [Required(ErrorMessage ="Pls enter name")]
+        [Required(ErrorMessage = "Pls enter name")]
         [Display(Name = "Enter Employee Name:")]
         [MaxLength(50, ErrorMessage = "Name cannot be longer than 50 characters.")]
         [MinLength(3, ErrorMessage = "Name must be at least 3 characters long.")]

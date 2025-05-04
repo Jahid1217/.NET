@@ -7,6 +7,7 @@
       <Diagram DiagramId="2ae905fc6d7246609a6cd346be867c34" Name="Diagram1">
         <EntityTypeShape EntityType="EmployeesModel1.EmployeeTable" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="EmployeesModel1.RegistrationUser" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmployeesModel1.UserLogin" Width="1.5" PointX="3.375" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
