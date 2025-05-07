@@ -24,6 +24,7 @@ namespace WebApplicationDataRead.Controllers
         [HttpPost]
         public ActionResult Login(UserLogin user)
         {
+            ModelState.Remove("RePassword");
             if (ModelState.IsValid)
             {
                 var data = _dbContest.UserLogins.Where(x => x.Title == user.Title && x.Password == user.Password).FirstOrDefault(); 
@@ -42,6 +43,7 @@ namespace WebApplicationDataRead.Controllers
 
                 ViewBag.Invalid = "Invalid username or password.";
                 ModelState.Clear();
+                return View();
             }
 
             return View();
@@ -55,6 +57,31 @@ namespace WebApplicationDataRead.Controllers
             return RedirectToAction("Login");
         }
 
-
+        public ActionResult Register()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Register(UserLogin user)
+        {
+            if (ModelState.IsValid)
+            {
+                if(_dbContest.UserLogins.Any(x => x.Title == user.Title))
+                {
+                    ModelState.Clear();
+                    Session.Clear();
+                }
+                _dbContest.UserLogins.Add(user);
+                _dbContest.SaveChanges();
+            }
+            return View("Register");
+        }
+        public ActionResult Logout()
+        {
+            ModelState.Clear();
+            Session.Clear();
+            Session.Abandon();
+            return RedirectToAction("Login");
+        }
     }
 }

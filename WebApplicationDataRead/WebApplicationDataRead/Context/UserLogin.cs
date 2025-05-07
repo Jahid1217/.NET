@@ -17,8 +17,18 @@ namespace WebApplicationDataRead.Context
     {
         [Key]
         public int Id { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Title { get; set; }
         public string Password { get; set; }
+        [Compare("Password")]
+        public string RePassword { get; set; }
         public string Type { get; set; }
+    }
+
+    public enum type
+    {
+        Admin,
+        Employee
     }
 }

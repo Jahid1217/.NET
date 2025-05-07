@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\context\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\context\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\views\\registration\\registrationadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\views\\registration\\registrationadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|d:\\code\\.net\\.net\\webapplicationloginreg\\webapplicationloginreg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\webapplicationloginreg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEAC0E27-47F4-455D-8CB2-4DB2C392000C}|WebApplicationLoginReg\\WebApplicationLoginReg.csproj|solutionrelative:webapplicationloginreg\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "WebApplicationLoginReg\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T05:49:15.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T05:49:15.929Z"
             },
             {
               "$type": "Document",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "WebApplicationLoginReg\\Views\\Registration\\RegistrationAdd.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T02:04:28.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T02:04:28.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Context\\User.cs",
               "RelativeDocumentMoniker": "WebApplicationLoginReg\\Context\\User.cs",
@@ -77,13 +75,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RegistrationController.cs",
               "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginReg\\WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
               "RelativeToolTip": "WebApplicationLoginReg\\Controllers\\RegistrationController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T18:41:58.348Z",
               "EditorCaption": ""
@@ -98,8 +96,7 @@
               "RelativeToolTip": "WebApplicationLoginReg\\Controllers\\LoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:40:38.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T18:40:38.28Z"
             },
             {
               "$type": "Document",
