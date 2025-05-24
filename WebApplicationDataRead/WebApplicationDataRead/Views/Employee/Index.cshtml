@@ -17,9 +17,14 @@
 
 <h2>Index</h2>
 
-<hr />
-<a href="@Url.Action("info", "Employee")" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Create Employee</a>
-<hr />
+@if (Session["Tital" == null])
+{
+    <hr />
+    <a href="@Url.Action("info", "Employee")" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Create Employee</a>
+    <hr />
+
+}
+
 
 <br />
 @if (TempData["Success"] != null)
@@ -62,7 +67,7 @@
                 <td>@item.designation</td>
                 <td>
                     @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "EmployeeDelete", new { id = item.Id })*@
+                        @Html.ActionLink("Delete", "EmployeeDelete", new { id = item.Id })*@
                     <a href="@Url.Action("EmployeeDelete",new{ item.Id})" , class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Remove Employee</a>  |
                     <a href="@Url.Action("info",new { item.Id,item.Name,item.JoingDate,item.Email,item.Salay,item.designation,item.Call })" , class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>Edit Employee</a>
 

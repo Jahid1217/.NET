@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29F94DE7-BE0B-41D6-A51A-C2DC0E30D58B}|WebApplicationCodeFrist\\WebApplicationCodeFrist.csproj|d:\\code\\.net\\.net\\webapplicationcodefrist\\webapplicationcodefrist\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{29F94DE7-BE0B-41D6-A51A-C2DC0E30D58B}|WebApplicationCodeFrist\\WebApplicationCodeFrist.csproj|solutionrelative:webapplicationcodefrist\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F94DE7-BE0B-41D6-A51A-C2DC0E30D58B}|WebApplicationCodeFrist\\WebApplicationCodeFrist.csproj|d:\\code\\.net\\.net\\webapplicationcodefrist\\webapplicationcodefrist\\context\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F94DE7-BE0B-41D6-A51A-C2DC0E30D58B}|WebApplicationCodeFrist\\WebApplicationCodeFrist.csproj|solutionrelative:webapplicationcodefrist\\context\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F94DE7-BE0B-41D6-A51A-C2DC0E30D58B}|WebApplicationCodeFrist\\WebApplicationCodeFrist.csproj|d:\\code\\.net\\.net\\webapplicationcodefrist\\webapplicationcodefrist\\context\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F94DE7-BE0B-41D6-A51A-C2DC0E30D58B}|WebApplicationCodeFrist\\WebApplicationCodeFrist.csproj|solutionrelative:webapplicationcodefrist\\context\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\WebApplicationCodeFrist\\Web.config",
+              "RelativeDocumentMoniker": "WebApplicationCodeFrist\\Web.config",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\WebApplicationCodeFrist\\Web.config",
+              "RelativeToolTip": "WebApplicationCodeFrist\\Web.config",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-15T14:05:36.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolContext.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\WebApplicationCodeFrist\\Context\\SchoolContext.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFrist\\Context\\SchoolContext.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\WebApplicationCodeFrist\\Context\\SchoolContext.cs",
+              "RelativeToolTip": "WebApplicationCodeFrist\\Context\\SchoolContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:04:41.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\WebApplicationCodeFrist\\Context\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFrist\\Context\\Student.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFrist\\WebApplicationCodeFrist\\Context\\Student.cs",
+              "RelativeToolTip": "WebApplicationCodeFrist\\Context\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:04:12.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

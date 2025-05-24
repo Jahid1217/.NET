@@ -1,0 +1,29 @@
+﻿@model List<WebApplicationCourse.Models.Course>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Launch Date</th>
+            <th>Category</th>
+            <th>Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Launch</td>
+                <td>@item.type.type.ToString()</td>
+                <td>@item.Duration</td>
+            </tr>
+        }
+    </tbody>
+</table>

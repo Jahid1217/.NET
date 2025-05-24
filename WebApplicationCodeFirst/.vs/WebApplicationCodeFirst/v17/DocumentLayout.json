@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\models\\gametype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\models\\gametype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|d:\\code\\.net\\.net\\webapplicationcodefirst\\webapplicationcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|d:\\code\\.net\\.net\\webapplicationcodefirst\\webapplicationcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|d:\\code\\.net\\.net\\webapplicationcodefirst\\webapplicationcodefirst\\migrations\\202505170837160_insertdatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\migrations\\202505170837160_insertdatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\migrations\\202505170755151_cratetablegameupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\migrations\\202505170755151_cratetablegameupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\migrations\\202505170805326_cratetablegameupdate-force.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\migrations\\202505170805326_cratetablegameupdate-force.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\webapplicationcodefirst\\migrations\\202505170730105_cratetablegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32970E01-1991-44EF-B6F4-069C6DFA95A8}|WebApplicationCodeFirst\\WebApplicationCodeFirst.csproj|solutionrelative:webapplicationcodefirst\\migrations\\202505170730105_cratetablegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:58:37.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T07:50:38.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "202505170837160_InsertDatatype.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170837160_InsertDatatype.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Migrations\\202505170837160_InsertDatatype.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170837160_InsertDatatype.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Migrations\\202505170837160_InsertDatatype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:37:21.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameType.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Models\\GameType.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Models\\GameType.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Models\\GameType.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Models\\GameType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:57:58.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202505170755151_CrateTableGameupdate.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170755151_CrateTableGameupdate.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Migrations\\202505170755151_CrateTableGameupdate.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170755151_CrateTableGameupdate.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Migrations\\202505170755151_CrateTableGameupdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:55:20.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "202505170730105_CrateTableGame.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170730105_CrateTableGame.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Migrations\\202505170730105_CrateTableGame.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170730105_CrateTableGame.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Migrations\\202505170730105_CrateTableGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:30:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:20:51.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Models\\Game.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Models\\Game.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:13:26.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "202505170805326_CrateTableGameUpdate-force.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170805326_CrateTableGameUpdate-force.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Migrations\\202505170805326_CrateTableGameUpdate-force.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Migrations\\202505170805326_CrateTableGameUpdate-force.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Migrations\\202505170805326_CrateTableGameUpdate-force.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:05:38.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Context\\Model1.cs",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Context\\Model1.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Context\\Model1.cs",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Context\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:11:11.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Web.config",
+              "RelativeDocumentMoniker": "WebApplicationCodeFirst\\Web.config",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationCodeFirst\\WebApplicationCodeFirst\\Web.config",
+              "RelativeToolTip": "WebApplicationCodeFirst\\Web.config",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAD4AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-17T07:40:23.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

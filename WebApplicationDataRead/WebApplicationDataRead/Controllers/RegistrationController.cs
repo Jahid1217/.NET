@@ -13,6 +13,8 @@ namespace WebApplicationDataRead.Controllers
         public EmployeesEntities1 _dbContesReg = new EmployeesEntities1();
         public ActionResult Index()
         {
+            if (Session["Tital"] ==null)
+                return RedirectToAction("Login", "User");
             return View();
         }
 

@@ -67,7 +67,7 @@ namespace WebApplicationDataRead.Controllers
             if (ModelState.IsValid)
             {
                 if(_dbContest.UserLogins.Any(x => x.Title == user.Title))
-                {
+                { 
                     ModelState.Clear();
                     Session.Clear();
                 }
@@ -78,6 +78,9 @@ namespace WebApplicationDataRead.Controllers
         }
         public ActionResult Logout()
         {
+            if(Session["Tital"] == null)
+            return RedirectToAction("Login","User");
+            
             ModelState.Clear();
             Session.Clear();
             Session.Abandon();

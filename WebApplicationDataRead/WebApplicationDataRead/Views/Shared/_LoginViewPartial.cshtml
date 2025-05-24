@@ -1,13 +1,15 @@
 ﻿@if (Session["Title"] != null)
 {
     <ul class="nav navbar-nav navber-right">
-        <li>@Html.ActionLink("Login"+ Session["Title"].ToString, "Login", "User", new { area = "" }, new { @class = "nav-link" })</li>
+        <li>@Html.ActionLink("Login" + Session["Title"].ToString, "Login", "User", new { area = "" }, new { @class = "nav-link" })</li>
         <li>@Html.ActionLink("Sign Up", "Register", "User", new { area = "" }, new { @class = "nav-link" })</li>
 
     </ul>
 }
 else
-            {
+{
+    <li>@Html.ActionLink("Login", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+    <li>@Html.ActionLink("Sign Up", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
 
-            }
+}
 
