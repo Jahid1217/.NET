@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|d:\\code\\.net\\.net\\webapplicationstudentinfoapi\\webapplicationstudentinfoapi\\migrations\\202505290712082_adddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|solutionrelative:webapplicationstudentinfoapi\\migrations\\202505290712082_adddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|d:\\code\\.net\\.net\\webapplicationstudentinfoapi\\webapplicationstudentinfoapi\\migrations\\202505290710205_createstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|solutionrelative:webapplicationstudentinfoapi\\migrations\\202505290710205_createstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|d:\\code\\.net\\.net\\webapplicationstudentinfoapi\\webapplicationstudentinfoapi\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|solutionrelative:webapplicationstudentinfoapi\\models\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|d:\\code\\.net\\.net\\webapplicationstudentinfoapi\\webapplicationstudentinfoapi\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|solutionrelative:webapplicationstudentinfoapi\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|d:\\code\\.net\\.net\\webapplicationstudentinfoapi\\webapplicationstudentinfoapi\\context\\modelstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DAC0EF-7CAE-4652-B12B-7C2F537538D9}|WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi.csproj|solutionrelative:webapplicationstudentinfoapi\\context\\modelstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "202505290712082_AddData.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Migrations\\202505290712082_AddData.cs",
+              "RelativeDocumentMoniker": "WebApplicationStudentInfoApi\\Migrations\\202505290712082_AddData.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Migrations\\202505290712082_AddData.cs*",
+              "RelativeToolTip": "WebApplicationStudentInfoApi\\Migrations\\202505290712082_AddData.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:12:17.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202505290710205_CreateStudent.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Migrations\\202505290710205_CreateStudent.cs",
+              "RelativeDocumentMoniker": "WebApplicationStudentInfoApi\\Migrations\\202505290710205_CreateStudent.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Migrations\\202505290710205_CreateStudent.cs",
+              "RelativeToolTip": "WebApplicationStudentInfoApi\\Migrations\\202505290710205_CreateStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:10:41.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "WebApplicationStudentInfoApi\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "WebApplicationStudentInfoApi\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:09:31.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModelStudent.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Context\\ModelStudent.cs",
+              "RelativeDocumentMoniker": "WebApplicationStudentInfoApi\\Context\\ModelStudent.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Context\\ModelStudent.cs",
+              "RelativeToolTip": "WebApplicationStudentInfoApi\\Context\\ModelStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:05:59.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentInfo.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Models\\StudentInfo.cs",
+              "RelativeDocumentMoniker": "WebApplicationStudentInfoApi\\Models\\StudentInfo.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationStudentInfoApi\\WebApplicationStudentInfoApi\\Models\\StudentInfo.cs",
+              "RelativeToolTip": "WebApplicationStudentInfoApi\\Models\\StudentInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:02:59.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
