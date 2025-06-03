@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\views\\login\\patientregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\views\\login\\patientregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|d:\\code\\.net\\.net\\webapplicationloginapi\\webapplicationloginapi\\models\\log_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\models\\log_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\migrations\\202506010615055_createlogin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\migrations\\202506010615055_createlogin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\migrations\\202506010518567_createlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\migrations\\202506010518567_createlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\migrations\\202506010558209_createlogin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\migrations\\202506010558209_createlogin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\webapplicationloginapi\\models\\doctor_type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A27F90-7E50-491B-834C-CACC8430A9B5}|WebApplicationLoginApi\\WebApplicationLoginApi.csproj|solutionrelative:webapplicationloginapi\\models\\doctor_type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Context\\Model1.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Context\\Model1.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Context\\Model1.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Context\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:14:04.331Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202506010558209_CreateLogin1.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\202506010558209_CreateLogin1.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Migrations\\202506010558209_CreateLogin1.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\202506010558209_CreateLogin1.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Migrations\\202506010558209_CreateLogin1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:58:26.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientRegistration.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Views\\Login\\PatientRegistration.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Views\\Login\\PatientRegistration.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Views\\Login\\PatientRegistration.cshtml",
+              "RelativeToolTip": "WebApplicationLoginApi\\Views\\Login\\PatientRegistration.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T05:32:22.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Log_Info.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Models\\Log_Info.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Models\\Log_Info.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Models\\Log_Info.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Models\\Log_Info.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:11:23.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "202506010615055_CreateLogin2.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\202506010615055_CreateLogin2.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Migrations\\202506010615055_CreateLogin2.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\202506010615055_CreateLogin2.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Migrations\\202506010615055_CreateLogin2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:15:11.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:23:12.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "202506010518567_CreateLogin.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\202506010518567_CreateLogin.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Migrations\\202506010518567_CreateLogin.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\202506010518567_CreateLogin.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Migrations\\202506010518567_CreateLogin.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:19:17.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationLoginApi\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T06:25:54.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:17:58.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Doctor_Type.cs",
+              "DocumentMoniker": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Models\\Doctor_Type.cs",
+              "RelativeDocumentMoniker": "WebApplicationLoginApi\\Models\\Doctor_Type.cs",
+              "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationLoginApi\\WebApplicationLoginApi\\Models\\Doctor_Type.cs",
+              "RelativeToolTip": "WebApplicationLoginApi\\Models\\Doctor_Type.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:38:14.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

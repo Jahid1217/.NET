@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using WebApplicationAPI.Context;
 using WebApplicationAPI.Models;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace WebApplicationAPI.Controllers
 {
@@ -48,7 +49,7 @@ namespace WebApplicationAPI.Controllers
         // GET: Games/Details/5
         public ActionResult Details(int? id)
         {
-            _httpClient.BaseAddress = new Uri(@"http://localhost:51105/api/GameApi");
+            _httpClient.BaseAddress = new Uri(@"http://localhost:51105/api/GameAp");
             var response = _httpClient.GetAsync("GameApi/" + id.ToString());
                 response.Wait();
             if (response.Result.IsSuccessStatusCode) {
@@ -85,16 +86,15 @@ namespace WebApplicationAPI.Controllers
         // GET: Games/Edit/5
         public ActionResult Edit(int? id)
         {
-            if (id == null)
+            _httpClient.BaseAddress = new Uri(@"http://localhost:51105/api/GameApi");
+            var response = _httpClient.GetAsync("GameApi/" + id.ToString());
+            response.Wait();
+            if (response.Result.IsSuccessStatusCode)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                var data = response.Result.Content.ReadAsAsync<Game>().Result;
+                return View(data);
             }
-            Game game = db.Games.Find(id);
-            if (game == null)
-            {
-                return HttpNotFound();
-            }
-            return View(game);
+            return HttpNotFound();
         }
 
         // POST: Games/Edit/5
@@ -116,28 +116,47 @@ namespace WebApplicationAPI.Controllers
         // GET: Games/Delete/5
         public ActionResult Delete(int? id)
         {
+            _httpClient.BaseAddress = new Uri(@"http://localhost:51105/api/GameApi");
+            var response = _httpClient.GetAsync("GameApi/" + id.ToString());
+            response.Wait();
+            if (response.Result.IsSuccessStatusCode)
+            {
+                var data = response.Result.Content.ReadAsAsync<Game>().Result;
+                return View(data);
+            }
+            return HttpNotFound();
+        }
+
+        // POST: Games/Delete/5
+        [HttpPost,]
+        [ValidateAntiForgeryToken]
+            public async Task<ActionResult> DeleteConfirmed(int? id)
+        {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Game game = db.Games.Find(id);
-            if (game == null)
+
+            try
             {
+                _httpClient.BaseAddress = new Uri(@"http://localhost:51105/api/RemoveGame");
+                var response = await _httpClient.DeleteAsync("RemoveGame/" +id.ToString());
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var data = await response.Content.ReadAsAsync<Game>();
+                    return View(data);
+                }
+
                 return HttpNotFound();
             }
-            return View(game);
+            catch (Exception ex)
+            {
+                // Optional: log the error
+                return new HttpStatusCodeResult(HttpStatusCode.InternalServerError, ex.Message);
+            }
         }
 
-        // POST: Games/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            Game game = db.Games.Find(id);
-            db.Games.Remove(game);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
 
         protected override void Dispose(bool disposing)
         {

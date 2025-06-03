@@ -67,7 +67,7 @@
               "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\GamesController.cs",
               "ToolTip": "D:\\CODE\\.NET\\.NET\\WebApplicationAPI\\WebApplicationAPI\\Controllers\\GamesController.cs*",
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\GamesController.cs*",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAxwH8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAA8wI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T16:40:39.119Z",
               "EditorCaption": ""
@@ -82,8 +82,7 @@
               "RelativeToolTip": "WebApplicationAPI\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:14:14.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T20:14:14.897Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "WebApplicationAPI\\App_Start\\WebApiConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:48:22.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:48:22.672Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Migrations\\202505281939303_AddData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:39:35.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:39:35.518Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:19:14.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:19:14.4Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "ToolTip": "C:\\Users\\HP\\AppData\\Local\\Temp\\readme.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-28T19:17:59.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:17:59.573Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "WebApplicationAPI\\Web_Api\\GameApiController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:17:59.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:17:59.387Z"
             },
             {
               "$type": "Document",

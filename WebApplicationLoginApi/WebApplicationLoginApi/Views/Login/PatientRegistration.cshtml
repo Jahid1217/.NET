@@ -1,0 +1,72 @@
+﻿@model WebApplicationLoginApi.Models.Log_Info
+@using WebApplicationLoginApi.Models
+@{
+    ViewBag.Title = "PatientRegistration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+<h2>PatientRegistration</h2>
+
+@using (Html.BeginForm("PatientRegistration", "Login", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(x => x.FirstName, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.FirstName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.LastName, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.LastName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Email, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Password, htmlAttributes: new { @class = "control-label" })
+        @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.ConfirmPassword, htmlAttributes: new { @class = "control-label" })
+        @Html.PasswordFor(x => x.ConfirmPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.ConfirmPassword, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Phone, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Phone, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Gender, htmlAttributes: new { @class = "control-label" })
+        @Html.DropDownListFor(x => x.Gender, new SelectList(Enum.GetValues(typeof(GenderType))), "--Selest--", new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Gender, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Address, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Address, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.DateOfBirth, htmlAttributes: new { @class = "control-label" })
+        @Html.TextBoxFor(x => x.DateOfBirth, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(x => x.DateOfBirth, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.BloodGroup, htmlAttributes: new { @class = "control-label" })
+        @Html.DropDownListFor(x => x.BloodGroup, new SelectList(Enum.GetValues(typeof(BloodGroupType))), "--Selest--", new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.BloodGroup, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="form-group">
+        <input type="submit" value="Register" class="btn btn-primary" />
+    </div>
+
+}
