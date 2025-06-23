@@ -1,7 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -13,9 +9,6 @@ namespace WebApplicationAPI
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            // Enable attribute routing
-            routes.MapMvcAttributeRoutes();
-
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
@@ -24,3 +17,4 @@ namespace WebApplicationAPI
         }
     }
 }
+
